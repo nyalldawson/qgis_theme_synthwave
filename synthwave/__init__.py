@@ -54,6 +54,8 @@ class SynthwaveColorScheme(QgsCodeEditorColorScheme):
         QgsCodeEditorColorScheme.ColorRole.Edge: QColor("#47496f"),
         QgsCodeEditorColorScheme.ColorRole.Fold: QColor("#292239"),
         QgsCodeEditorColorScheme.ColorRole.Error: QColor("#fe4450"),
+        QgsCodeEditorColorScheme.ColorRole.FoldIconForeground: QColor("#7e779b"),
+        QgsCodeEditorColorScheme.ColorRole.FoldIconHalo: QColor("#34294e"),
     }
 
     def __init__(self):
